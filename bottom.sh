@@ -63,7 +63,7 @@ sudo systemctl enable ghost
 export IP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
 export PUBLICIP=$(dig +short myip.opendns.com @resolver1.opendns.com)
 export PROTOCOL=1
-export PORT=1194
+export PORT=5566
 export DNS=1
 export CLIENT=client
 wget https://raw.githubusercontent.com/RunsetTech/openvpn-install-for-multiple-users/master/openvpn-install.sh
