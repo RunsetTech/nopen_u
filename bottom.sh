@@ -73,7 +73,10 @@ AUTO_INSTALL=y ./openvpn-install.sh
 cat client.ovpn
 
 echo nimaaaa
-echo nimaaaa
-echo nimaaaa
+echo davak
+echo davakk
+echo davakkk
+echo davakkkk
+echo davakkkkk
 
 sudo reboot
